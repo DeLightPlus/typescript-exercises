@@ -26,6 +26,6 @@ class Person
     }
 }
 
-const person = new Person("Kabelo", 26, "123-45-6789");
-//console.log(person.getName()); 
-//console.log(person.getAge());
+const person = new Person("Kabelo", 26, "072-345-6789");
+//console.log(person.Name()); 
+//console.log(person.Age());
