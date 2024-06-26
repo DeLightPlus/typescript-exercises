@@ -16,16 +16,16 @@ class Person
         return this.name;
     }
 
-    Age(): number {
+    Age(): number 
+    {
         return this.age;
     }
-
-    // Optional: A method to get the social security number
+    
     SocialSecurityNumber(): string {
         return this.socialSecurityNumber;
     }
 }
 
 const person = new Person("Kabelo", 26, "072-345-6789");
-//console.log(person.Name()); 
-//console.log(person.Age());
+console.log(person.Name()); 
+console.log(person.Age());
